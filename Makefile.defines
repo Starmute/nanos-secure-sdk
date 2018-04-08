@@ -47,6 +47,7 @@ CFLAGS   += -fdata-sections -ffunction-sections -funsigned-char -fshort-enums
 CFLAGS   += -mno-unaligned-access 
 CFLAGS   += -Wno-unused-parameter -Wno-duplicate-decl-specifier
 CFLAGS   += -fropi --target=armv6m-none-eabi
+CFLAGS   += -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13
 
 AFLAGS += -ggdb2 -O3 -Os -mcpu=cortex-m0 -fno-common -mtune=cortex-m0
 
